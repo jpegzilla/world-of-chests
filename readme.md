@@ -59,7 +59,7 @@ _come, dear reader, and join me..._
 
 ![the contents of the chest are some leather and beef.](./examples/crunched_fuller.png)
 
-promo image is called "a token of friendship" by arthur collingridge: https://www.artgallery.nsw.gov.au/collection/works/4620/
+the original version of the promo image is called "a token of friendship" by arthur collingridge: https://www.artgallery.nsw.gov.au/collection/works/4620/
 
 minecraftification and chestastisizing by me
 
