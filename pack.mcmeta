@@ -2,7 +2,6 @@
   "pack": {
     "description": "what if you opened a chest and it contained the drops of a cow? or a skeleton? what then? what would you do?",
     "min_format": 121,
-    "supported_formats": 121,
-    "pack_format": 121
+    "max_format": 121
   }
 }
