@@ -1,6 +1,15 @@
+# just using this to have a convenient selector
+tag @s add will_be_killed_by_player
+
 # spawn chests on every entity and give the chest their loot
 execute as @s align xyz run setblock ~ ~ ~ minecraft:chest
-loot insert ~ ~ ~ kill @s
+
+# here's where we essentially simulate the loot as if the entity was
+# killed by the player
+execute at @s as @p run loot insert ~ ~ ~ kill @e[distance=512, tag=will_be_killed_by_player, limit=1]
+
+# not sure if removing the tag here actually does anything
+tag @s remove will_be_killed_by_player
 
 data merge entity @s { \
     NoAI: 1b, \
@@ -11,7 +20,7 @@ data merge entity @s { \
     attributes: [{ id: scale, base: 0.000001 }] \
 }
 
-effect give @s minecraft:invisibility infinite 0 true
+effect give @s minecraft:invisibility infinite 2 true
 
 # hide the body
 # remember, this y coordinate needs to line up with

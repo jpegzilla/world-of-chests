@@ -71,3 +71,4 @@ minecraftification and chestastisizing by me
   - when the chest is destroyed, use the stored entity ID to kill the mob
 - [ ] figure out how to make the mob actually hidden
 - [ ] make sure all the entities that shouldn't turn into chests (like throwable items and stuff) don't turn into chests
+- [ ] what if slimes split into other chests? hmm

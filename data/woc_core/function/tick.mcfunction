@@ -1,6 +1,9 @@
 
 team add nocol
 team modify nocol collisionRule never
+# without this, the entities on this team will render as slightly
+# transparent instead of invisible
+team modify nocol seeFriendlyInvisibles false
 team join nocol @p
 
 execute as @p \
