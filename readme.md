@@ -36,17 +36,21 @@ ___
 > [!TIP]
 > cows contain beef and leather, similar to the way they are known to be mostly made of those things in real life
 
-come, dear reader, and join me...
+_come, dear reader, and join me..._
 
-## in the world of chests...
+**in the world of chests...**
 
-___
+---
 
 # installation instructions
 
-- download this repository and unzip the zip if that's how you roll
+## for n00bz:
+- [click here to go to the releases page](https://github.com/jpegzilla/world-of-chests/releases)
+- go to the [latest release](https://github.com/jpegzilla/world-of-chests/releases/latest)
+- click the `.zip` file with `world-of-chests` in the name (or the one called "source code")
+- un`.zip` the `.zip` if that's how you roll
 - create a minecraft world and quit the world
 - open the minecraft world's folder
-- in the `/datapacks/` folder, paste the contents of this repository in there
-- load up your game
+- in the `/datapacks/` folder, paste in the thing you downloaded
+- load up your game again
 - experience the true nature of this world...my world...of _CHESTS_.
