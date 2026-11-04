@@ -54,3 +54,11 @@ _come, dear reader, and join me..._
 - in the `/datapacks/` folder, paste in the thing you downloaded
 - load up your game again
 - experience the true nature of this world...my world...of _CHESTS_.
+
+## credits
+
+![the contents of the chest are some leather and beef.](./examples/promo_1.png)
+
+promo image is called "a token of friendship" by arthur collingridge: https://www.artgallery.nsw.gov.au/collection/works/4620/
+
+minecraftification and chestastisizing by me
