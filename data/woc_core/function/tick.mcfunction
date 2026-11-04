@@ -16,6 +16,7 @@ execute as @e[ \
     type=!minecart, \
     type=!#minecraft:impact_projectiles, \
     type=!#minecraft:redirectable_projectile, \
+    type=!minecraft:experience_orb, \
     tag=!aaandyouareafish, \
     type=!item, \
     distance=..512 \
