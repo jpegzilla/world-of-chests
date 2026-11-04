@@ -57,7 +57,7 @@ _come, dear reader, and join me..._
 
 ## credits
 
-![the contents of the chest are some leather and beef.](./examples/crunched_full.png)
+![the contents of the chest are some leather and beef.](./examples/crunched_fuller.png)
 
 promo image is called "a token of friendship" by arthur collingridge: https://www.artgallery.nsw.gov.au/collection/works/4620/
 
