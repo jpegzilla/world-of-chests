@@ -26,3 +26,14 @@ ___
 come, dear reader, and join me...
 
 ## in the world of chests...
+
+___
+
+# installation instructions
+
+- download this repository and unzip the zip if that's how you roll
+- create a minecraft world and quit the world
+- open the minecraft world's folder
+- in the `/datapacks/` folder, paste the contents of this repository in there
+- load up your game
+- experience the true nature of this world...my world...of _CHESTS_.
