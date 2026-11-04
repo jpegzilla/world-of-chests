@@ -43,6 +43,7 @@
     "minecraft:experience_orb",
     "#minecraft:redirectable_projectile",
     "minecraft:evoker_fangs",
-    "#minecraft:impact_projectiles"
+    "#minecraft:impact_projectiles",
+    "minecraft:splash_potion"
   ]
 }
