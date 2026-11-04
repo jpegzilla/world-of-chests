@@ -14,7 +14,7 @@ data merge entity @s { \
 effect give @s minecraft:invisibility infinite 0 true
 
 # hide the body
-execute as @s align xyz run tp @s ~.5 ~-.25 ~.5
+execute as @s align xyz run tp @s ~.5 ~ ~.5
 # I think putting them in the void doesn't work
 # because they despawn due to being too far away (or something)
 #execute as @s align xyz run tp @s ~.5 -75 ~.5
