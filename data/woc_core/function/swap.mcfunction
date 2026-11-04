@@ -8,13 +8,13 @@ data merge entity @s { \
     NoGravity: 1b, \
     Invulnerable: 1b, \
     Tags: ["aaandyouareafish"], \
-    attributes: [{ id:scale, base: 0.00001 }] \
+    attributes: [{ id: scale, base: 0.000001 }] \
 }
 
 effect give @s minecraft:invisibility infinite 0 true
 
 # hide the body
-execute as @s align xyz run tp @s ~.5 ~ ~.5
+execute as @s run tp @s ~.5 ~ ~.5
 # I think putting them in the void doesn't work
 # because they despawn due to being too far away (or something)
 #execute as @s align xyz run tp @s ~.5 -75 ~.5

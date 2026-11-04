@@ -12,4 +12,4 @@ execute as @e[ \
 ] at @s run function woc_core:swap
 
 # dispose of it once the chest is gone
-execute as @e[tag=aaandyouareafish] at @s align xyz positioned ~ ~1 ~ unless block ~ ~ ~ minecraft:chest run function woc_core:cleanup
+execute as @e[tag=aaandyouareafish] at @s align xyz positioned ~ ~ ~ unless block ~ ~ ~ minecraft:chest run function woc_core:cleanup
