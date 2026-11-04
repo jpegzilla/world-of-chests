@@ -57,7 +57,7 @@ _come, dear reader, and join me..._
 
 ## credits
 
-![the contents of the chest are some leather and beef.](./examples/promo_1.png)
+![the contents of the chest are some leather and beef.](./examples/promo_full.png)
 
 promo image is called "a token of friendship" by arthur collingridge: https://www.artgallery.nsw.gov.au/collection/works/4620/
 
@@ -65,7 +65,9 @@ minecraftification and chestastisizing by me
 
 ## todo
 
-- [ ] when breaking the chest, kill the associated mob
+- [x] when breaking the chest spawned by swap.mcfunction, kill the associated mob
   - every entity has an ID
   - attach the ID of the mob to the chest upon spawning the chest
   - when the chest is destroyed, use the stored entity ID to kill the mob
+- [ ] figure out how to make the mob actually hidden
+- [ ] make sure all the entities that shouldn't turn into chests (like throwable items and stuff) don't turn into chests
