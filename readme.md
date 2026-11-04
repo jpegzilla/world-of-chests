@@ -66,3 +66,6 @@ minecraftification and chestastisizing by me
 ## todo
 
 - [ ] when breaking the chest, kill the associated mob
+  - every entity has an ID
+  - attach the ID of the mob to the chest upon spawning the chest
+  - when the chest is destroyed, use the stored entity ID to kill the mob

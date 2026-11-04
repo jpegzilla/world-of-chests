@@ -1,4 +1,8 @@
 
+team add nocol
+team modify nocol collisionRule never
+team join nocol @p
+
 execute as @p \
 at @s run \
 execute as @e[ \
@@ -24,5 +28,5 @@ execute as @e[ \
     type=!#minecraft:redirectable_projectile, \
     tag=!aaandyouareafish, \
     type=!item, \
-    distance=..64 \
+    distance=..512 \
 ] at @s run function woc_core:swap
