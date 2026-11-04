@@ -14,6 +14,8 @@ data merge entity @s { \
 effect give @s minecraft:invisibility infinite 0 true
 
 # hide the body
+# remember, this y coordinate needs to line up with
+# the y coordinate of the block check in tick.mcfunction
 execute as @s run tp @s ~.5 ~ ~.5
 # I think putting them in the void doesn't work
 # because they despawn due to being too far away (or something)
