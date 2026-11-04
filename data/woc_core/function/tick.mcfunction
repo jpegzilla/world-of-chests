@@ -22,6 +22,7 @@ execute as @e[ \
     type=!minecart, \
     type=!#minecraft:impact_projectiles, \
     type=!#minecraft:redirectable_projectile, \
+    tag=!aaandyouareafish, \
     type=!item, \
     distance=..64 \
 ] at @s run function woc_core:swap

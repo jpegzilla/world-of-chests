@@ -62,3 +62,7 @@ _come, dear reader, and join me..._
 promo image is called "a token of friendship" by arthur collingridge: https://www.artgallery.nsw.gov.au/collection/works/4620/
 
 minecraftification and chestastisizing by me
+
+## todo
+
+- [ ] when breaking the chest, kill the associated mob
