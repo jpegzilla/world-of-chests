@@ -44,6 +44,18 @@
     "#minecraft:redirectable_projectile",
     "minecraft:evoker_fangs",
     "#minecraft:impact_projectiles",
-    "minecraft:splash_potion"
+    "minecraft:splash_potion",
+    "minecraft:fireball",
+    "minecraft:firework_rocket",
+    "minecraft:ominous_item_spawner",
+    "minecraft:trident",
+    "minecraft:shulker_bullet",
+    "minecraft:llama_spit",
+    "minecraft:wither_skull",
+    "minecraft:mannequin",
+    "minecraft:egg",
+    "minecraft:cushion",
+    "minecraft:end_crystal",
+    "minecraft:block_display"
   ]
 }
