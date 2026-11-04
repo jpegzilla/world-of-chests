@@ -6,18 +6,10 @@ team join nocol @p
 execute as @p \
 at @s run \
 execute as @e[ \
-    type=!minecraft:player, \
-    type=!minecraft:cat, \
-    type=!minecraft:wolf, \
-    type=!minecraft:marker, \
-    type=!minecraft:armor_stand, \
-    type=!minecraft:ender_dragon, \
-    type=!minecraft:falling_block, \
-    type=!minecart, \
-    type=!#minecraft:impact_projectiles, \
-    type=!#minecraft:redirectable_projectile, \
-    type=!minecraft:experience_orb, \
     tag=!aaandyouareafish, \
-    type=!item, \
+    type=!#woc_core:no_swap, \
     distance=..512 \
 ] at @s run function woc_core:swap
+
+# dispose of it once the chest is gone
+execute as @e[tag=aaandyouareafish] at @s align xyz positioned ~ ~1 ~ unless block ~ ~ ~ minecraft:chest run function woc_core:cleanup
