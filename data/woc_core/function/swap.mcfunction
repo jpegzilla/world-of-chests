@@ -6,7 +6,7 @@ execute as @s align xyz run setblock ~ ~ ~ minecraft:chest
 
 # here's where we essentially simulate the loot as if the entity was
 # killed by the player
-execute at @s as @p run loot insert ~ ~ ~ kill @e[distance=512, tag=will_be_killed_by_player, limit=1]
+execute at @s as @p run loot insert ~ ~ ~ kill @e[tag=will_be_killed_by_player, limit=1]
 
 # not sure if removing the tag here actually does anything
 tag @s remove will_be_killed_by_player
